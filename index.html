@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/mystyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <title>TravelCream</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">TravelCream</div>
+
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                      <span></span>
+                    </label>
+                    <ul class="menu__box">
+                      <li><a class="menu__item" href="#">Flights</a></li>
+                      <li><a class="menu__item" href="#">Hotels</a></li>
+                      <li><a class="menu__item" href="#">Trips</a></li>
+                      <li><a class="menu__item" href="#">Activity</a></li>
+                      <li><a class="menu__item" href="#">Deals</a></li>
+                      <li><a class="menu__item" href="#">Login</a></li>
+                    </ul>
+                  </div>
+
+
+                    <nav class="nav">
+                        <a class="nav__link" href="#">Flights</a>
+                        <a class="nav__link" href="#">Hotels</a>
+                        <a class="nav__link" href="#">Trips</a>
+                        <a class="nav__link" href="#">Activity</a>
+                        <a class="nav__link" href="#">Deals</a>
+                        <a class="btn__login" href="#">Login</a>
+                    </nav>
+            </div>
+        </div>
+    </header>
+
+<div class="intro">
+    <div class="container">
+
+        <div class="intro__inner">
+            <h1 class="intro__title">Do you want to visit Paris ?</h1>
+            <h2 class="intro__subtitle">Why not</h2>
+        </div>
+    </div>
+</div>
+
+<div class="search">
+    <input type="text" class="search__placehold1" placeholder="Where are you leaving from?">
+    <input type="text" class="search__placehold2" placeholder="Where do you want to go?">
+    <input type="text" class="search__placehold3" placeholder="Date">
+    <a class="btn__search" href="#">Search</a>
+</div>
+
+<div class="container__flights">
+    <section class="section__flights1">
+        <div class="section__flights">
+            <h1>Flights</h1>
+            <nav  class="nav2">
+                <a class="nav__link2" href="#">Non stop</a>
+                <a class="nav__link2" href="#">Best Price</a>
+                <a class="nav__link2" href="#">Airline</a>
+                <a class="nav__link2" href="#">Schedule</a>
+            </nav>   
+        </div>
+
+        <table class="table" >
+            <tr class="tr__123">
+                <th class="th__table" scope="colgroup" >Airline</th>
+                <th class="th__table" scope="colgroup">Date</th>
+                <th class="th__table" scope="colgroup">Departure</th>
+                <th class="th__table" scope="colgroup">Arrival</th>
+                <th class="th__table" scope="colgroup">Time</th>
+                <th class="th__table" scope="colgroup">Price</th>
+            </tr>
+           
+            <tbody class="tbody__fl">  
+                <tr class="table__flight">
+                    <td><img class="img__flights" src="https://i.pinimg.com/originals/c6/3c/d4/c63cd4cbc7db0f4032247276ab1ffcc1.png" alt="">Vueling<br>VO1367</br></td>
+                    <td>03/11/2017<br>In 3 days</br></td>
+                    <td>Paris (CDG)<br>15:15</br></td>
+                    <td>Miami<br>5:00</br></td>
+                    <td>08:45<br>CDG-MIA</br></td>
+                    <td><button class="btn__price" type="submit">930$</button></td>
+                </tr>
+                <tr class="table__flight">
+                    <td><img class="img__flights" src="https://www.intervoiceover.com/nl/wp-content/uploads/sites/6/2014/06/logo-air-france.jpg" alt="">Air France<br>AF90</br></td>
+                    <td>03/11/2017<br>In 3 days</br></td>
+                    <td>Paris (CDG)<br>09:15</br></td>
+                    <td>Miami<br>5:00</br></td>
+                    <td>08:45<br>CDG-MIA</br></td>
+                    <td><button class="btn__price" type="submit">870$</button></td>
+                </tr>
+                <tr class="table__flight">
+                    <td><img class="img__flights" src="https://cdn.freebiesupply.com/logos/large/2x/american-air-1-logo-png-transparent.png" alt="">American<br>AA63</br></td>
+                    <td>03/11/2017<br>In 3 days</br></td>
+                    <td>Paris (CDG)<br>03:65</br></td>
+                    <td>Miami<br>5:00</br></td>
+                    <td>08:45<br>CDG-MIA</br></td>
+                    <td><button class="btn__price" type="submit">902$</button></td>
+                </tr>
+                <tr class="table__flight">
+                    <td><img class="img__flights" src="https://i.ya-webdesign.com/images/delta-air-lines-logo-png-18.png" alt="">Delta<br>DL405</br></td>
+                    <td>03/11/2017<br>In 3 days</br></td>
+                    <td>Paris (CDG)<br>06:55</br></td>
+                    <td>Miami<br>5:00</br></td>
+                    <td>08:45<br>CDG-MIA</br></td>
+                    <td><button class="btn__price" type="submit">980$</button></td>
+                </tr>
+                <tr class="table__flight1">
+                    <td style="border-bottom: 1px solid #dee2e6;" ><img class="img__flights"  src="https://i.pinimg.com/originals/aa/04/60/aa0460688e45570df848805e93f48eb9.png" alt="">Transavia<br>T04330</br></td>
+                    <td style="border-bottom: 1px solid #dee2e6;" > 03/11/2017<br>In 3 days</br></td>
+                    <td style="border-bottom: 1px solid #dee2e6;" >Paris (CDG)<br>09:15</br></td>
+                    <td style="border-bottom: 1px solid #dee2e6;" >Miami<br>5:00</br></td>
+                    <td style="border-bottom: 1px solid #dee2e6;" >08:45<br>CDG-MIA</br></td>
+                    <td style="border-bottom: 1px solid #dee2e6;" ><button class="btn__price" type="submit">834$</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <a class="btn__saf" href="#">See all flights</a>
+    </section>
+
+    <section class="hotels">
+        <div class="section__flights">
+            <h1>Hotels</h1>
+            <nav  class="nav2">
+                <a class="nav__link2" href="#">Best Price</a>
+                <a class="nav__link2" href="#">Distance</a>
+            </nav>   
+        </div>
+
+        <div class="hotels__cart1">
+            <img class="img__hotels" src="https://q-cf.bstatic.com/images/hotel/max1280x900/362/36203414.jpg">
+            <div class="hotelscart1">
+                <h3>Schiller</h3> <h4 class="h4freewifi">Free Wi-Fi</h4>
+                <h4>12.3 km</h4> 
+                <br><a class="btn__pricehotels" href="#">32$</a></br>
+            </div>
+        </div>
+        
+        <div class="hotels__cart1">
+            <img class="img__hotels" src="https://r-cf.bstatic.com/images/hotel/max1280x900/308/30837174.jpg">
+            <div class="hotelscart1">
+                <h3>Premiera</h3> <h4 class="h4freewifi">Free Wi-Fi</h4>
+                <h4>15.3 km</h4> 
+                <br><a class="btn__pricehotels" href="#">27$</a></br>
+            </div>
+        </div>
+
+        <div class="hotels__cart1">
+            <img class="img__hotels" src="https://q-cf.bstatic.com/images/hotel/max1280x900/758/75813056.jpg">
+            <div class="hotelscart1">
+                <h3>Golden Sand</h3> <h4 class="h4freewifi">Free Wi-Fi</h4>
+                <h4>21.3 km</h4> 
+                <br><a class="btn__pricehotels" href="#">22$</a></br>
+            </div>
+        </div>
+    </section>
+
+    <section class="attractions">
+        <div class="hotels__cart1">
+            <img class="img__hotels" src="https://q-cf.bstatic.com/images/hotel/max1280x900/362/36203414.jpg">
+            <div class="hotelscart1">
+                <h3>Schiller</h3> <h4 class="h4freewifi">Free Wi-Fi</h4>
+                <h4>12.3 km</h4> 
+                <br><a class="btn__pricehotels" href="#">32$</a></br>
+            </div>
+        </div>
+        
+        <div class="hotels__cart1">
+            <img class="img__hotels" src="https://r-cf.bstatic.com/images/hotel/max1280x900/308/30837174.jpg">
+            <div class="hotelscart1">
+                <h3>Premiera</h3> <h4 class="h4freewifi">Free Wi-Fi</h4>
+                <h4>15.3 km</h4> 
+                <br><a class="btn__pricehotels" href="#">27$</a></br>
+            </div>
+        </div>
+
+        <div class="hotels__cart1" style="margin-bottom: 50px;">
+            <img class="img__hotels" src="https://q-cf.bstatic.com/images/hotel/max1280x900/758/75813056.jpg">
+            <div class="hotelscart1">
+                <h3>Golden Sand</h3> <h4 class="h4freewifi">Free Wi-Fi</h4>
+                <h4>21.3 km</h4> 
+                <br><a class="btn__pricehotels" href="#">22$</a></br>
+            </div>
+        </div>
+
+    </section>
+
+    
+       
+    </section>
+    <a class="btn__saf1" href="#">See all hotels</a>
+
+    <section class="attractions">
+        <div class="section__attract">
+            <h1>Attractions</h1>
+            <nav  class="nav2">
+                <a class="nav__link2" href="#">All</a>
+                <a class="nav__link2" href="#">Sopping</a>
+                <a class="nav__link2" href="#">Shows</a>
+                <a class="nav__link2" href="#">Parks</a>
+                <a class="nav__link2" href="#">Circuits</a>
+                <a class="nav__link2" href="#">Museums</a>
+                <a class="nav__link2" href="#">Monuments</a>
+            </nav>   
+        </div>
+
+        <div class="attractions__cart">
+            <img class="attractionsimg" src="https://upload.wikimedia.org/wikipedia/commons/1/19/Eiffel_Tower_at_Night.jpg">
+        <h2 class="attractionsh21">Eiffel Tower</h2>
+        </div>
+        <div class="attractions__cart2">
+            <img class="attractions__cart2" src="https://upload.wikimedia.org/wikipedia/commons/0/00/Louvre_2007_02_24_c.jpg">
+            <h2 class="attractionsh22">Louvres</h2>
+        </div>
+        <div class="attractions__cart3">
+            <img class="attractions__cart3" src="https://blog.parispass.com/wp-content/uploads/2014/08/notre-dame-at-night-1000x380.jpg">
+            <h2 class="attractionsh23">Notre Dame de Paris</h2>
+        </div>
+        <div class="attractions__cart4">
+            <img class="attractionsimg2" src="https://en.parisinfo.com/var/otcp/sites/images/node_43/node_51/node_77884/node_77893/forum-des-halles-canopee-niveau-1-%7C-630x405-%7C-%C2%A9-otcp/16850247-1-fre-FR/Forum-des-Halles-Canopee-niveau-1-%7C-630x405-%7C-%C2%A9-OTCP.jpg">
+            <h2 class="attractionsh24">Forum des Halles</h2>
+        </div>
+        <div class="attractions__cart5">
+            <img class="attractionsimg2" src="https://i.pinimg.com/originals/e4/ac/79/e4ac794fa02b34c0df5f0a08bc381f7e.jpg">
+            <h2 class="attractionsh25">Arc de Triomphe</h2>
+        </div>
+        <div class="attractions__cart6">
+            <img class="attractionsimg2" src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/sacre-coeur-night-people-igor-sokalski.jpg">
+            <h2 class="attractionsh26">Sarcce Coeur</h2>
+        </div>
+
+    </section>
+    <a class="btn__saf2" href="#">See all attractions</a>
+
+    <section class="trips">
+        <div class="section__trips">
+            <h1>Trips</h1>
+            <nav  class="nav2">
+                <a class="nav__link2" href="#">Best Trips</a>
+                <a class="nav__link2" href="#">Popularity</a>
+            </nav>   
+        </div>
+
+        <div class="trips__cart1">
+            <img class="trips__img1" src="https://i.insider.com/5aa7fb147708e9697c4a247c?width=1100&format=jpeg&auto=webp">
+            <div class="trips__txt1">
+                <h3>In the picture you can see the Eiffel Tower</h3>
+                <h4 class="text__tripsh4">The best known symbol of France and Paris. It was named after Gustav Eiffel, whose company designed and built the tower in 1889. This lattice tower is made of puddle iron. The tower stands on four legs and has a sharp peak on the top.
+                    The tower is the tallest structure in Paris and the most-visited paid monument in the world; 6.98 million people ascended it in 2011. The tower received its 250 millionth visitor in 2010.
+                    The tower is 324 metres tall, about the same height as an 81-storey building. Its base is square, 125 metres on a side. 
+                    The tower has three levels for visitors, with restaurants on the first and second. The third level observatory's upper platform is 276 m above the ground, the highest accessible to the public in the European Union. 
+                </h4>
+            </div>    
+        </div>
+
+        <div class="trips__cart2">
+            <img class="trips__img2" src="https://parisgid.ru/wp-content/uploads/2012/04/SaintMartin2.jpg">
+            <div class="trips__txt2">
+                <h3>In the picture you can see the Eiffel Tower</h3>
+                <h4 class="text__tripsh4">The best known symbol of France and Paris. It was named after Gustav Eiffel, whose company designed and built the tower in 1889. This lattice tower is made of puddle iron. The tower stands on four legs and has a sharp peak on the top.
+                    The tower is the tallest structure in Paris and the most-visited paid monument in the world; 6.98 million people ascended it in 2011. The tower received its 250 millionth visitor in 2010.
+                    The tower is 324 metres tall, about the same height as an 81-storey building. Its base is square, 125 metres on a side. 
+                    The tower has three levels for visitors, with restaurants on the first and second. The third level observatory's upper platform is 276 m above the ground, the highest accessible to the public in the European Union. 
+                </h4>
+            </div>    
+        </div>
+
+        <div class="trips__cart2">
+            <img class="trips__img2" src="https://traveller-eu.ru/sites/default/files/styles/index/public/2017-05-16%2002.23.26%201-1024x640.jpg?itok=i77Vm-YW">
+            <div class="trips__txt2">
+                <h3>In the picture you can see the Eiffel Tower</h3>
+                <h4 class="text__tripsh4">The best known symbol of France and Paris. It was named after Gustav Eiffel, whose company designed and built the tower in 1889. This lattice tower is made of puddle iron. The tower stands on four legs and has a sharp peak on the top.
+                    The tower is the tallest structure in Paris and the most-visited paid monument in the world; 6.98 million people ascended it in 2011. The tower received its 250 millionth visitor in 2010.
+                    The tower is 324 metres tall, about the same height as an 81-storey building. Its base is square, 125 metres on a side. 
+                    The tower has three levels for visitors, with restaurants on the first and second. The third level observatory's upper platform is 276 m above the ground, the highest accessible to the public in the European Union. 
+                </h4>
+            </div>    
+        </div>
+    </section>
+    <a class="btn__saf3" href="#">See all trips</a>
+
+    <section class="footer">
+        <div class="section__footer">
+            <h1>Cities</h1>
+            <div class="footer__col">
+                <a class="nav__footer"  href="#">Paris</a>
+                <a class="nav__footer" href="#">Miami</a>
+                <a class="nav__footer" href="#">London</a>
+                <a class="nav__footer" href="#">Madrid</a>
+                <a class="nav__footer" href="#">Tokyo</a>
+                <a class="nav__footer" href="#">Pekin</a>
+            </div>   
+        </div>
+
+        <div class="section__footer">
+            <h1>Explore</h1>
+            <div class="footer__col">
+                <a class="nav__footer"  href="#">Register</a>
+                <a class="nav__footer" href="#">Login</a>
+                <a class="nav__footer" href="#">Assistance</a>
+                <a class="nav__footer" href="#">Eco</a>
+            </div>   
+        </div>
+
+        <div class="section__footer">
+            <h1>About us</h1>
+            <div class="footer__col">
+                <a class="nav__footer"  href="#">About TravelCream</a>
+                <a class="nav__footer" href="#">Careers</a>
+                <a class="nav__footer" href="#">Blog</a>
+                <a class="nav__footer" href="#">Privacy Policy</a>
+                <a class="nav__footer" href="#">Terms of Usage</a>
+            </div>   
+        </div>
+
+        <div class="section__footer1">
+            <h1>Contact</h1>
+            <div class="footer__col1">
+                <h4>Feel free to get in touch via email:</h4>
+                <a class="nav__footer" href="#">support@TravelCream.com</a>
+            </div>   
+        </div>
+</div>
+
+
+
+</body>
+</html>
